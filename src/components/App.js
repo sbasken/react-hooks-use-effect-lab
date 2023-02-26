@@ -16,6 +16,8 @@ function App() {
     }
     if (correct) {
       setScore((score) => score + 1);
+    } else {
+      console.log("try again!")
     }
   }
 
